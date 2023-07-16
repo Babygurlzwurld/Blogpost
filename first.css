@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+}
+body{
+    background-image: url(../img/foodpic2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    }
+.container{
+    width:100vw;
+    height: 100vh;
+    font-family: 'Kablammo', cursive;
+    font-size: 16pt;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: minmax(100px, auto);
+    grid-gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.container div{
+    padding: 10px;
+}
+.header{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.picture{
+    grid-row-start: 2;
+   
+    grid-column-start: 1;
+    grid-column-end: 1;
+    color: white;
+}
+.authorinfo{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.footer{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.homepageheader{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    }
+    
+    li {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    }
+    
+    nav {
+    width: 100%;
+    }
+    
+    .logo{
+    color: red;
+    font-size: 36pt;
+    font-family: 'Kablammo', cursive;
+    padding: 5px;
+    }
+    
+    nav ul{
+    float: right; 
+    }
+    
+    nav ul li{
+    display: inline-block;
+    margin: 0 20px;
+    }
+    
+    button{
+    background-color: red;
+    border: 2px solid yellow;
+    height: 50px;
+    width: 100px;
+    color: white;
+    } 
+img {
+        width: 100%;
+        height: 93%;   
+    }
+h3{
+    color: white;
+}
+h5{
+    color: white;
+}
+h6{
+    color: white;
+}
+.change-container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+@media (max-width: 700px);{
+    .change-container{
+        max-width: 700px;
+
+    }
+    
+}

@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+background-image: url(../img/foodbackground.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+.homepageheader{
+width: 100%;
+display: flex;
+flex-direction: row;
+}
+
+li {
+padding: 0;
+margin: 0;
+text-decoration: none;
+list-style: none;
+box-sizing: border-box;
+}
+
+nav {
+width: 100%;
+}
+
+.logo{
+color: white;
+font-size: 36pt;
+font-family: 'Kablammo', cursive;
+padding: 5px;
+}
+
+nav ul{
+float: right; 
+}
+
+nav ul li{
+display: inline-block;
+margin: 0 20px;
+}
+
+button{
+background-color: red;
+border: 2px solid yellow;
+height: 50px;
+width: 100px;
+color: white;
+}
+
+.content{
+display: flex;
+min-height: 20vh;
+width: 75%;
+align-items: center;
+justify-content- center;
+margin: 30px;
+}
+
+.img-foodtruck{
+width: 475px;
+height: 400px;
+object-fit: contain;
+object-position: 5px 20%;
+margin: 0px;
+}
+
+.left {
+width: 50vw;
+height: 50vh;
+display: block;
+object-fit: cover;
+object-position: center;
+}
+
+h1{
+font-family: 'Kablammo', cursive;
+color: white;
+}
+
+p{
+font-family: 'LilitaOne', cursive;
+color: white;
+}
+
+.blogpostcard{
+display: grid;
+max-width: 1200px;
+grid-template-columns: repeat(3, 1fr);
+grid-auto-rows: minmax(100px;auto);
+grid-gap: 5px;
+grid-template-areas: 
+"left center right"
+"footer footer footer"
+}
+
+.mr{
+height: 85px;
+width: 100%;
+padding: 20px;SS
+margin: 70px;
+font-size: 36pt;
+font-family: 'Kablammo', cursive;
+color: white;
+}
+
+.cardone{
+    grid-area: "left";
+    width: 50px;
+}
+
+.cardtwo{
+    grid-area: "center";
+    width: 50px;
+}
+
+.cardthree{
+    grid-area: "right";
+    width: 50px;
+}
+
+.blogpostbutton{
+    width: 200px;
+}
+
+.img-pinappleboat{
+width: 300px;
+height: 200px;
+object-fit: cover;
+object-position: 5px 60%;
+}
+
+.img-cornbread{
+width: 300px;
+height: 200px;
+object-fit: cover;
+object-position: 5px 80%;
+}
+
+.img-tacopasta{
+width: 300px;
+height: 200px;
+object-fit: cover;
+object-position: 5px 70%;
+}
+
+.caption{
+    width: 300px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+footer {
+    grid-area: footer;
+    height: 100px;
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 10px;
+    font-size: 36pt;
+    align-items: center;
+    font-family: 'Kablammo', cursive;
+    color: white;
+}
